@@ -5,7 +5,8 @@
   "main": "leecher.js",
   "dependencies": {
     "bittorrent-tracker": "^6.0.7",
-    "parse-torrent": "^5.4.0"
+    "parse-torrent": "^5.4.0",
+    "webtorrent": "^0.63.4"
   },
   "devDependencies": {},
   "scripts": {
