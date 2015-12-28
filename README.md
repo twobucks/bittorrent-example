@@ -7,11 +7,9 @@ It uses [bittorrent-tracker](https://github.com/feross/bittorrent-tracker) under
 # Steps
 
 1. Install dependencies: `npm install`
-2. Create torrent file: `create-torrent package.json -o foo.torrent --announce http://localhost:8000/announce`
-3. Start a Bittorrent tracker server on port 8000: `bittorrent-tracker`
-4. Open another terminal and start seeding that torrent with: `node seeder.js`
-5. Download contents of that torrent and write it as `package.json.copy`, make sure it's the same as original
-`package.json` file. Run this in another terminal: `node leecher.js`
+2. Start a Bittorrent tracker server on port 8000: `bittorrent-tracker`
+3. Open another terminal and start seeding *hello world* with: `node seeder.js`
+4. Run this in another terminal: `node leecher.js`
 
 # License 
 
