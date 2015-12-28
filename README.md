@@ -2,7 +2,7 @@
 
 A simple example of file transfer using Bittorrent protocol.
 
-It uses [bittorrent-tracker](https://github.com/feross/bittorrent-tracker) and [webtorrent](https://github.com/feross/webtorrent)under the hood.
+It uses [bittorrent-tracker](https://github.com/feross/bittorrent-tracker) and [webtorrent](https://github.com/feross/webtorrent) under the hood.
 
 # Steps
 
